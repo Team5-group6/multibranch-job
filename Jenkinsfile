@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('1-clone'){
 			steps{
-				sh 'pwd'
+				sh 'ls'
 			}
 		}
 		stage('2-parallel-jobs'){
